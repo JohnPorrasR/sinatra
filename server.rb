@@ -7,3 +7,8 @@ end
 get '/nosotros' do
   erb :nosotros
 end
+
+get '/contacto' do
+  @usuario = "John"
+  erb :contacto
+end
